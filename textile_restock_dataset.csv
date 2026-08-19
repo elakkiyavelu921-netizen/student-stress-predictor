@@ -1,0 +1,1001 @@
+Product_ID,Product_Name,Category,Current_Stock,Units_Sold_Last_7_Days,Average_Daily_Sales,Demand_Forecast,Restock
+P001,Salwar,Traditional Wear,76,10,1.39,16.54,NO
+P002,T-Shirt,T-Shirt,109,8,1.15,12.61,YES
+P003,Kids Dress,Kids Wear,68,10,1.52,12.07,NO
+P004,Women's Top,Women's Wear,57,117,15.2,97.21,YES
+P005,Palazzo,Women's Wear,105,52,7.89,75.67,YES
+P006,Chudidar,Traditional Wear,43,21,2.81,19.26,NO
+P007,Kids Dress,Kids Wear,73,19,2.72,30.85,NO
+P008,Jeans,Jeans,55,0,0.0,0.8,NO
+P009,Salwar,Traditional Wear,170,59,8.01,92.5,NO
+P010,Casual Shirt,Shirt,126,96,13.02,123.66,NO
+P011,Cotton Saree,Saree,161,134,18.77,134.6,NO
+P012,Salwar,Traditional Wear,29,18,2.77,19.54,NO
+P013,Palazzo,Women's Wear,70,82,10.54,100.64,YES
+P014,Palazzo,Women's Wear,197,116,17.9,193.08,NO
+P015,Chudidar,Traditional Wear,117,21,2.79,28.81,NO
+P016,Jeans,Jeans,54,50,7.84,59.87,YES
+P017,T-Shirt,T-Shirt,66,61,9.51,69.99,YES
+P018,Chudidar,Traditional Wear,140,82,11.7,69.73,YES
+P019,Chudidar,Traditional Wear,2,40,5.73,57.36,YES
+P020,Cotton Saree,Saree,25,36,5.12,34.74,YES
+P021,Kurti,Kurti,56,67,9.83,83.39,YES
+P022,Jeans,Jeans,125,115,15.08,145.93,YES
+P023,Silk Saree,Saree,151,128,16.58,198.41,YES
+P024,Chudidar,Traditional Wear,52,65,8.46,67.89,YES
+P025,Leggings,Women's Wear,197,93,13.14,99.66,NO
+P026,Men's Dhoti,Men's Wear,42,63,8.6,88.02,YES
+P027,Kurti,Kurti,187,34,4.98,47.52,NO
+P028,Silk Saree,Saree,185,50,7.85,63.96,NO
+P029,Leggings,Women's Wear,48,19,2.65,31.28,NO
+P030,Jeans,Jeans,41,49,7.1,81.35,YES
+P031,Cotton Shirt,Shirt,193,99,13.9,102.35,NO
+P032,Leggings,Women's Wear,10,21,3.21,24.42,YES
+P033,Casual Shirt,Shirt,102,93,14.35,131.61,YES
+P034,Kurti,Kurti,97,7,1.08,11.6,YES
+P035,Kids Dress,Kids Wear,145,42,6.57,41.99,NO
+P036,Leggings,Women's Wear,84,43,5.56,57.88,NO
+P037,Formal Shirt,Shirt,99,31,4.73,47.99,NO
+P038,Cotton Shirt,Shirt,103,69,10.35,76.48,NO
+P039,Palazzo,Women's Wear,179,93,12.56,128.77,NO
+P040,Palazzo,Women's Wear,45,58,9.04,108.32,NO
+P041,Women's Top,Women's Wear,43,12,1.59,11.23,NO
+P042,Casual Shirt,Shirt,21,9,1.33,11.38,NO
+P043,Leggings,Women's Wear,180,85,11.47,101.61,NO
+P044,Leggings,Women's Wear,186,22,3.1,37.29,NO
+P045,Women's Top,Women's Wear,113,0,0.0,0.25,NO
+P046,Men's Dhoti,Men's Wear,124,19,2.75,24.74,NO
+P047,Men's Dhoti,Men's Wear,123,23,3.24,36.29,NO
+P048,Women's Top,Women's Wear,29,46,6.34,59.44,YES
+P049,Men's Dhoti,Men's Wear,7,25,3.81,36.88,YES
+P050,Cotton Saree,Saree,97,74,9.82,76.39,NO
+P051,Leggings,Women's Wear,56,58,8.17,59.99,YES
+P052,Salwar,Traditional Wear,110,60,9.26,70.87,NO
+P053,T-Shirt,T-Shirt,72,21,3.21,30.05,NO
+P054,Formal Shirt,Shirt,114,31,4.34,28.49,NO
+P055,Cotton Saree,Saree,19,26,3.91,46.24,YES
+P056,Jeans,Jeans,24,140,21.29,147.89,YES
+P057,Cotton Saree,Saree,18,29,4.47,34.53,YES
+P058,Salwar,Traditional Wear,4,78,11.24,103.92,YES
+P059,Jeans,Jeans,74,37,4.97,51.91,NO
+P060,Formal Shirt,Shirt,127,32,4.35,29.54,NO
+P061,Salwar,Traditional Wear,71,116,15.89,127.2,YES
+P062,Silk Saree,Saree,154,23,3.35,39.15,NO
+P063,T-Shirt,T-Shirt,39,17,2.2,16.61,NO
+P064,Formal Shirt,Shirt,25,10,1.47,11.54,NO
+P065,Leggings,Women's Wear,26,66,9.17,102.4,YES
+P066,Men's Dhoti,Men's Wear,189,27,3.7,23.25,NO
+P067,Silk Saree,Saree,82,35,5.38,47.41,NO
+P068,Casual Shirt,Shirt,127,121,17.15,141.86,YES
+P069,Formal Shirt,Shirt,177,4,0.53,3.86,NO
+P070,Casual Shirt,Shirt,169,13,1.98,13.63,NO
+P071,Jeans,Jeans,156,14,1.82,12.18,NO
+P072,Silk Saree,Saree,166,11,1.64,14.43,NO
+P073,T-Shirt,T-Shirt,187,20,3.01,19.63,NO
+P074,Leggings,Women's Wear,168,44,6.1,65.75,NO
+P075,Women's Top,Women's Wear,32,40,6.09,49.86,YES
+P076,Leggings,Women's Wear,96,16,2.29,18.84,NO
+P077,Salwar,Traditional Wear,110,57,8.08,93.75,NO
+P078,Leggings,Women's Wear,15,18,2.34,22.45,NO
+P079,Kids Dress,Kids Wear,22,90,12.32,74.11,YES
+P080,Chudidar,Traditional Wear,134,19,2.95,34.01,NO
+P081,Women's Top,Women's Wear,25,27,3.77,29.46,YES
+P082,Cotton Saree,Saree,95,65,9.37,61.69,NO
+P083,Men's Dhoti,Men's Wear,11,13,1.87,19.16,YES
+P084,Cotton Shirt,Shirt,71,94,13.67,125.69,YES
+P085,T-Shirt,T-Shirt,132,9,1.17,9.53,NO
+P086,Silk Saree,Saree,105,69,9.59,70.58,NO
+P087,Chudidar,Traditional Wear,116,43,6.42,60.62,NO
+P088,T-Shirt,T-Shirt,196,60,8.06,62.22,NO
+P089,Silk Saree,Saree,176,22,2.96,35.28,NO
+P090,Men's Dhoti,Men's Wear,25,10,1.29,8.39,NO
+P091,Kurti,Kurti,132,17,2.4,27.43,NO
+P092,Kurti,Kurti,21,73,11.23,105.53,YES
+P093,Casual Shirt,Shirt,12,78,10.14,111.58,YES
+P094,T-Shirt,T-Shirt,155,55,7.37,78.46,NO
+P095,Kurti,Kurti,160,10,1.37,15.08,NO
+P096,Kids Dress,Kids Wear,106,79,11.81,93.61,NO
+P097,Women's Top,Women's Wear,22,27,3.97,29.87,YES
+P098,Silk Saree,Saree,96,34,4.78,33.6,YES
+P099,Casual Shirt,Shirt,17,15,2.25,27.1,YES
+P100,Leggings,Women's Wear,116,26,3.8,40.71,NO
+P101,Silk Saree,Saree,29,11,1.7,12.85,NO
+P102,Casual Shirt,Shirt,25,70,10.64,72.19,YES
+P103,Men's Dhoti,Men's Wear,143,115,15.62,130.89,NO
+P104,T-Shirt,T-Shirt,38,11,1.5,15.09,NO
+P105,Men's Dhoti,Men's Wear,160,85,11.23,97.19,NO
+P106,Women's Top,Women's Wear,153,30,4.15,44.35,NO
+P107,Women's Top,Women's Wear,175,15,2.36,28.87,YES
+P108,Chudidar,Traditional Wear,192,11,1.54,9.88,NO
+P109,Men's Dhoti,Men's Wear,165,71,9.58,86.23,NO
+P110,Salwar,Traditional Wear,129,14,2.1,16.55,NO
+P111,Leggings,Women's Wear,112,82,11.81,92.87,NO
+P112,Formal Shirt,Shirt,133,75,9.96,72.46,NO
+P113,Men's Dhoti,Men's Wear,45,87,12.13,76.24,YES
+P114,Chudidar,Traditional Wear,49,60,8.42,97.65,YES
+P115,Jeans,Jeans,165,48,7.21,63.29,NO
+P116,Kids Dress,Kids Wear,105,47,6.07,53.88,NO
+P117,Silk Saree,Saree,145,45,6.13,73.55,NO
+P118,Women's Top,Women's Wear,154,23,3.3,35.99,NO
+P119,Jeans,Jeans,168,121,16.49,110.87,NO
+P120,Chudidar,Traditional Wear,71,57,8.35,79.15,YES
+P121,Casual Shirt,Shirt,73,9,1.28,10.43,YES
+P122,Formal Shirt,Shirt,16,102,14.17,156.38,YES
+P123,Leggings,Women's Wear,189,22,3.43,37.24,NO
+P124,Leggings,Women's Wear,156,70,10.26,107.01,YES
+P125,Leggings,Women's Wear,185,11,1.46,13.76,NO
+P126,Kids Dress,Kids Wear,69,22,3.18,36.21,NO
+P127,Formal Shirt,Shirt,149,41,6.19,39.28,NO
+P128,Kids Dress,Kids Wear,5,61,9.08,62.51,YES
+P129,Women's Top,Women's Wear,25,126,16.82,135.82,YES
+P130,Kids Dress,Kids Wear,166,0,0.0,0.0,NO
+P131,Cotton Shirt,Shirt,139,103,14.56,109.17,NO
+P132,Formal Shirt,Shirt,98,14,1.86,20.58,NO
+P133,Salwar,Traditional Wear,141,96,12.84,151.18,YES
+P134,Formal Shirt,Shirt,21,17,2.23,15.8,NO
+P135,Chudidar,Traditional Wear,50,20,3.03,22.63,NO
+P136,Cotton Shirt,Shirt,150,58,7.66,59.42,NO
+P137,Leggings,Women's Wear,175,97,12.82,98.57,NO
+P138,Chudidar,Traditional Wear,198,119,18.19,112.82,NO
+P139,Chudidar,Traditional Wear,103,56,7.75,91.29,NO
+P140,Women's Top,Women's Wear,177,100,12.95,95.13,NO
+P141,Palazzo,Women's Wear,88,5,0.65,4.46,NO
+P142,Cotton Saree,Saree,140,71,9.42,55.08,NO
+P143,Cotton Shirt,Shirt,137,31,4.17,47.74,NO
+P144,Chudidar,Traditional Wear,182,60,8.85,93.36,NO
+P145,Cotton Saree,Saree,8,103,13.71,161.46,YES
+P146,Cotton Saree,Saree,78,28,3.7,39.76,NO
+P147,Cotton Shirt,Shirt,51,67,10.08,78.32,YES
+P148,Palazzo,Women's Wear,129,80,11.82,88.91,NO
+P149,Jeans,Jeans,152,92,12.97,133.77,NO
+P150,Casual Shirt,Shirt,12,1,0.14,1.61,NO
+P151,Salwar,Traditional Wear,50,89,12.24,117.71,YES
+P152,Casual Shirt,Shirt,185,70,9.97,58.91,NO
+P153,Formal Shirt,Shirt,33,19,2.72,19.09,NO
+P154,Leggings,Women's Wear,34,38,5.31,49.65,YES
+P155,Salwar,Traditional Wear,130,82,12.67,121.04,NO
+P156,Formal Shirt,Shirt,119,79,10.19,109.59,NO
+P157,Chudidar,Traditional Wear,186,42,6.34,43.66,NO
+P158,Leggings,Women's Wear,69,9,1.19,10.97,NO
+P159,Silk Saree,Saree,175,44,6.66,47.5,NO
+P160,Cotton Shirt,Shirt,191,94,13.74,88.04,NO
+P161,Salwar,Traditional Wear,146,23,3.51,28.05,NO
+P162,Salwar,Traditional Wear,66,63,8.28,57.22,NO
+P163,Men's Dhoti,Men's Wear,102,71,10.26,74.72,NO
+P164,Chudidar,Traditional Wear,72,67,9.57,75.64,YES
+P165,Jeans,Jeans,115,86,12.79,95.55,NO
+P166,Cotton Saree,Saree,132,36,5.18,34.63,NO
+P167,Leggings,Women's Wear,66,18,2.59,18.31,NO
+P168,Chudidar,Traditional Wear,138,16,2.25,17.88,NO
+P169,Kurti,Kurti,120,4,0.55,3.42,NO
+P170,Palazzo,Women's Wear,93,14,1.99,20.5,NO
+P171,Cotton Saree,Saree,195,18,2.38,19.89,NO
+P172,Cotton Shirt,Shirt,196,14,2.18,16.49,NO
+P173,Cotton Saree,Saree,128,45,6.7,53.12,YES
+P174,Jeans,Jeans,90,48,7.48,77.49,YES
+P175,Women's Top,Women's Wear,91,80,10.8,123.56,YES
+P176,Men's Dhoti,Men's Wear,62,12,1.84,19.74,NO
+P177,Cotton Saree,Saree,28,143,21.69,227.18,YES
+P178,Cotton Shirt,Shirt,11,69,10.21,90.34,YES
+P179,Jeans,Jeans,76,63,9.23,96.63,YES
+P180,Casual Shirt,Shirt,40,79,10.87,102.99,NO
+P181,Salwar,Traditional Wear,129,126,19.14,139.26,YES
+P182,Women's Top,Women's Wear,36,11,1.57,10.17,NO
+P183,Men's Dhoti,Men's Wear,172,34,4.44,34.93,NO
+P184,Salwar,Traditional Wear,175,116,15.95,186.76,YES
+P185,Palazzo,Women's Wear,23,30,4.66,42.63,YES
+P186,Formal Shirt,Shirt,98,9,1.38,16.0,NO
+P187,Women's Top,Women's Wear,149,55,8.61,68.36,NO
+P188,Women's Top,Women's Wear,99,150,21.98,186.66,YES
+P189,Casual Shirt,Shirt,138,43,5.83,40.02,NO
+P190,Casual Shirt,Shirt,57,47,6.26,43.1,NO
+P191,Leggings,Women's Wear,173,121,16.2,182.14,YES
+P192,Kids Dress,Kids Wear,28,5,0.65,7.22,NO
+P193,Cotton Saree,Saree,162,19,2.65,22.56,NO
+P194,Women's Top,Women's Wear,142,77,10.32,112.08,NO
+P195,Salwar,Traditional Wear,59,98,13.75,101.73,YES
+P196,Cotton Shirt,Shirt,94,23,3.57,42.34,NO
+P197,T-Shirt,T-Shirt,41,60,8.45,68.71,YES
+P198,Kids Dress,Kids Wear,42,42,6.45,53.08,YES
+P199,T-Shirt,T-Shirt,73,51,7.44,60.23,NO
+P200,Men's Dhoti,Men's Wear,176,48,6.51,44.56,NO
+P201,Jeans,Jeans,191,103,14.29,96.75,NO
+P202,Salwar,Traditional Wear,159,58,7.6,77.21,NO
+P203,Salwar,Traditional Wear,63,66,9.11,103.66,YES
+P204,Kids Dress,Kids Wear,1,64,9.47,102.57,YES
+P205,Women's Top,Women's Wear,151,11,1.44,10.63,NO
+P206,Palazzo,Women's Wear,65,53,7.13,65.7,YES
+P207,Kids Dress,Kids Wear,165,28,3.91,24.24,YES
+P208,T-Shirt,T-Shirt,30,50,7.83,48.95,YES
+P209,Kids Dress,Kids Wear,114,14,2.11,22.57,NO
+P210,Salwar,Traditional Wear,25,23,3.44,30.47,YES
+P211,Palazzo,Women's Wear,28,54,7.12,47.21,YES
+P212,Cotton Saree,Saree,194,60,9.05,57.09,NO
+P213,Kurti,Kurti,77,21,3.17,38.56,NO
+P214,Leggings,Women's Wear,24,77,11.22,67.11,YES
+P215,Silk Saree,Saree,47,53,8.31,71.42,YES
+P216,Casual Shirt,Shirt,64,16,2.21,21.01,NO
+P217,Kids Dress,Kids Wear,180,105,16.32,110.01,NO
+P218,Men's Dhoti,Men's Wear,66,45,6.96,50.42,NO
+P219,Formal Shirt,Shirt,89,41,5.28,43.45,NO
+P220,Jeans,Jeans,145,14,1.98,19.78,NO
+P221,Kurti,Kurti,136,81,12.68,114.44,NO
+P222,Leggings,Women's Wear,37,23,3.02,30.99,YES
+P223,Leggings,Women's Wear,86,78,11.25,135.5,YES
+P224,Leggings,Women's Wear,148,58,9.08,97.27,NO
+P225,Leggings,Women's Wear,64,14,2.02,17.5,NO
+P226,T-Shirt,T-Shirt,148,9,1.21,8.7,NO
+P227,Men's Dhoti,Men's Wear,26,56,8.13,79.06,YES
+P228,Men's Dhoti,Men's Wear,105,40,5.38,54.19,NO
+P229,Palazzo,Women's Wear,122,58,8.32,74.87,NO
+P230,Casual Shirt,Shirt,197,17,2.22,20.77,NO
+P231,Salwar,Traditional Wear,43,39,5.69,35.61,NO
+P232,Leggings,Women's Wear,99,39,5.59,49.64,NO
+P233,Formal Shirt,Shirt,27,72,10.78,82.11,YES
+P234,Salwar,Traditional Wear,172,54,7.92,54.67,NO
+P235,Men's Dhoti,Men's Wear,16,41,5.92,38.48,YES
+P236,Cotton Shirt,Shirt,126,48,7.12,69.45,NO
+P237,Cotton Shirt,Shirt,122,37,4.91,46.84,NO
+P238,Formal Shirt,Shirt,167,54,7.86,60.32,NO
+P239,Palazzo,Women's Wear,130,70,9.34,84.51,NO
+P240,Men's Dhoti,Men's Wear,75,15,2.33,19.64,NO
+P241,Formal Shirt,Shirt,193,98,12.79,90.09,NO
+P242,T-Shirt,T-Shirt,45,63,8.87,90.79,YES
+P243,Kids Dress,Kids Wear,157,59,8.76,94.77,YES
+P244,Formal Shirt,Shirt,68,39,5.52,59.52,NO
+P245,Cotton Saree,Saree,136,100,13.12,128.76,NO
+P246,Salwar,Traditional Wear,84,88,12.71,117.94,YES
+P247,Kurti,Kurti,10,0,0.0,1.45,NO
+P248,Chudidar,Traditional Wear,68,23,3.42,25.81,YES
+P249,Palazzo,Women's Wear,98,46,6.4,43.25,NO
+P250,Formal Shirt,Shirt,90,9,1.3,13.79,NO
+P251,Men's Dhoti,Men's Wear,193,59,8.35,54.99,NO
+P252,Jeans,Jeans,158,116,17.14,118.87,NO
+P253,Cotton Shirt,Shirt,160,12,1.74,18.36,NO
+P254,Cotton Saree,Saree,166,15,2.15,24.88,YES
+P255,Casual Shirt,Shirt,93,21,2.85,31.4,NO
+P256,Leggings,Women's Wear,173,49,6.3,37.05,NO
+P257,Chudidar,Traditional Wear,164,60,8.01,46.45,NO
+P258,Women's Top,Women's Wear,114,2,0.26,1.29,NO
+P259,Palazzo,Women's Wear,187,78,11.03,75.42,NO
+P260,Kurti,Kurti,30,66,9.64,58.38,NO
+P261,Chudidar,Traditional Wear,10,5,0.67,7.08,NO
+P262,Formal Shirt,Shirt,86,59,9.17,110.04,YES
+P263,T-Shirt,T-Shirt,120,52,6.7,53.36,NO
+P264,Cotton Shirt,Shirt,129,48,7.23,74.52,NO
+P265,Men's Dhoti,Men's Wear,104,8,1.17,10.23,NO
+P266,Cotton Shirt,Shirt,26,22,3.06,22.07,NO
+P267,Casual Shirt,Shirt,1,29,3.77,39.19,YES
+P268,T-Shirt,T-Shirt,102,112,16.41,119.1,YES
+P269,Leggings,Women's Wear,100,112,15.63,106.94,YES
+P270,Men's Dhoti,Men's Wear,20,10,1.55,15.94,NO
+P271,Salwar,Traditional Wear,57,5,0.72,5.97,NO
+P272,Silk Saree,Saree,132,15,2.33,28.11,NO
+P273,Cotton Saree,Saree,179,7,0.94,6.38,NO
+P274,Cotton Shirt,Shirt,172,66,9.85,95.01,NO
+P275,Jeans,Jeans,84,21,3.07,27.1,NO
+P276,Cotton Shirt,Shirt,92,22,3.29,22.39,NO
+P277,Chudidar,Traditional Wear,19,8,1.08,8.39,NO
+P278,Cotton Shirt,Shirt,60,59,8.71,85.0,YES
+P279,Palazzo,Women's Wear,37,73,10.42,113.36,YES
+P280,Cotton Shirt,Shirt,147,59,8.84,99.06,NO
+P281,Silk Saree,Saree,24,5,0.69,6.67,NO
+P282,Silk Saree,Saree,129,51,7.85,86.6,NO
+P283,Leggings,Women's Wear,120,79,10.35,104.84,NO
+P284,Kurti,Kurti,159,17,2.58,27.74,NO
+P285,Salwar,Traditional Wear,25,65,9.96,89.57,YES
+P286,Jeans,Jeans,197,113,17.17,171.15,NO
+P287,Cotton Shirt,Shirt,168,86,12.32,137.36,NO
+P288,Cotton Shirt,Shirt,66,44,6.21,51.44,NO
+P289,Cotton Saree,Saree,0,61,9.58,105.26,YES
+P290,Men's Dhoti,Men's Wear,50,123,16.62,162.85,YES
+P291,Silk Saree,Saree,4,75,10.81,77.09,YES
+P292,Jeans,Jeans,12,8,1.18,7.46,NO
+P293,Leggings,Women's Wear,146,115,17.09,140.81,NO
+P294,Casual Shirt,Shirt,139,24,3.23,29.48,NO
+P295,Kurti,Kurti,47,37,5.45,61.33,YES
+P296,Salwar,Traditional Wear,152,27,4.1,29.08,NO
+P297,T-Shirt,T-Shirt,56,28,3.64,40.75,NO
+P298,Salwar,Traditional Wear,114,36,5.57,62.59,NO
+P299,Palazzo,Women's Wear,34,59,7.64,51.52,YES
+P300,Chudidar,Traditional Wear,75,17,2.36,25.76,YES
+P301,Palazzo,Women's Wear,93,22,2.84,33.32,NO
+P302,Cotton Shirt,Shirt,4,21,2.75,27.34,YES
+P303,Women's Top,Women's Wear,21,75,11.6,126.05,YES
+P304,Kurti,Kurti,102,122,16.92,205.13,YES
+P305,Chudidar,Traditional Wear,184,53,7.46,71.53,NO
+P306,Jeans,Jeans,174,77,10.37,82.01,NO
+P307,T-Shirt,T-Shirt,181,81,11.8,131.13,NO
+P308,Silk Saree,Saree,130,55,8.01,76.92,NO
+P309,Kurti,Kurti,123,28,3.9,36.75,NO
+P310,Kurti,Kurti,52,5,0.69,4.09,NO
+P311,Palazzo,Women's Wear,158,10,1.54,16.56,NO
+P312,Women's Top,Women's Wear,68,67,9.35,58.85,YES
+P313,Cotton Shirt,Shirt,103,62,8.85,105.2,YES
+P314,Formal Shirt,Shirt,160,39,5.33,44.28,NO
+P315,Leggings,Women's Wear,199,12,1.81,13.2,NO
+P316,Palazzo,Women's Wear,177,34,4.76,41.72,NO
+P317,Kurti,Kurti,15,73,10.46,66.48,YES
+P318,Kids Dress,Kids Wear,115,50,6.79,70.47,NO
+P319,Cotton Saree,Saree,75,144,22.58,260.81,YES
+P320,T-Shirt,T-Shirt,108,56,7.67,85.67,NO
+P321,Leggings,Women's Wear,38,13,1.96,14.64,NO
+P322,Palazzo,Women's Wear,88,49,6.9,45.93,NO
+P323,T-Shirt,T-Shirt,173,51,6.86,74.11,NO
+P324,Cotton Saree,Saree,111,57,8.63,102.58,NO
+P325,Casual Shirt,Shirt,46,100,13.81,123.46,YES
+P326,Cotton Saree,Saree,171,49,7.51,66.93,NO
+P327,Women's Top,Women's Wear,136,49,7.58,60.45,NO
+P328,Cotton Saree,Saree,127,16,2.45,27.15,NO
+P329,T-Shirt,T-Shirt,177,24,3.11,32.02,NO
+P330,Salwar,Traditional Wear,76,4,0.6,3.75,NO
+P331,T-Shirt,T-Shirt,187,63,8.84,68.5,NO
+P332,Formal Shirt,Shirt,14,8,1.23,15.6,YES
+P333,Cotton Shirt,Shirt,35,117,17.18,103.6,YES
+P334,Chudidar,Traditional Wear,62,46,7.01,56.64,NO
+P335,Salwar,Traditional Wear,68,54,7.71,72.41,YES
+P336,Silk Saree,Saree,168,113,16.26,111.12,NO
+P337,Chudidar,Traditional Wear,73,113,14.99,98.39,YES
+P338,Cotton Shirt,Shirt,23,92,13.89,152.61,YES
+P339,Palazzo,Women's Wear,48,44,6.18,71.09,YES
+P340,Leggings,Women's Wear,145,31,4.43,48.18,NO
+P341,Formal Shirt,Shirt,6,21,3.17,37.59,YES
+P342,Formal Shirt,Shirt,3,22,3.2,31.97,YES
+P343,Silk Saree,Saree,89,39,5.24,59.97,NO
+P344,Salwar,Traditional Wear,196,45,6.54,54.54,NO
+P345,Women's Top,Women's Wear,59,14,1.96,18.9,NO
+P346,Men's Dhoti,Men's Wear,54,96,13.63,165.78,YES
+P347,Casual Shirt,Shirt,15,117,15.14,113.0,YES
+P348,Cotton Saree,Saree,28,38,5.11,41.78,YES
+P349,Salwar,Traditional Wear,150,60,8.2,75.4,NO
+P350,Leggings,Women's Wear,13,75,11.17,75.54,YES
+P351,Casual Shirt,Shirt,78,121,15.6,102.73,YES
+P352,Formal Shirt,Shirt,176,85,11.92,134.59,NO
+P353,T-Shirt,T-Shirt,32,142,22.01,267.64,YES
+P354,Leggings,Women's Wear,152,121,15.94,134.76,NO
+P355,Cotton Shirt,Shirt,20,92,13.19,83.8,YES
+P356,Silk Saree,Saree,144,5,0.76,4.37,NO
+P357,Cotton Shirt,Shirt,22,30,4.67,53.22,YES
+P358,Men's Dhoti,Men's Wear,56,0,0.0,0.0,NO
+P359,Leggings,Women's Wear,185,21,3.13,24.96,NO
+P360,Jeans,Jeans,141,53,8.07,71.85,NO
+P361,Jeans,Jeans,92,71,10.03,80.33,NO
+P362,Palazzo,Women's Wear,19,136,20.62,186.7,NO
+P363,Salwar,Traditional Wear,157,16,2.06,21.9,NO
+P364,Formal Shirt,Shirt,18,108,16.74,163.98,YES
+P365,Formal Shirt,Shirt,180,47,6.64,67.31,NO
+P366,Cotton Saree,Saree,102,49,7.07,58.09,NO
+P367,Cotton Saree,Saree,183,121,16.44,174.26,NO
+P368,Cotton Saree,Saree,76,52,7.79,80.32,YES
+P369,T-Shirt,T-Shirt,150,12,1.57,8.92,NO
+P370,Chudidar,Traditional Wear,189,105,16.12,153.78,YES
+P371,Kurti,Kurti,32,71,10.81,82.32,YES
+P372,Chudidar,Traditional Wear,17,9,1.21,12.19,NO
+P373,Cotton Shirt,Shirt,72,104,15.78,136.75,YES
+P374,Chudidar,Traditional Wear,160,17,2.57,33.09,NO
+P375,T-Shirt,T-Shirt,159,76,11.14,74.76,NO
+P376,Palazzo,Women's Wear,188,51,7.1,75.28,NO
+P377,Cotton Shirt,Shirt,181,89,12.13,122.6,NO
+P378,Chudidar,Traditional Wear,16,11,1.49,15.31,NO
+P379,T-Shirt,T-Shirt,18,128,17.62,138.57,YES
+P380,Kurti,Kurti,69,92,14.2,127.48,YES
+P381,Chudidar,Traditional Wear,119,4,0.52,4.52,NO
+P382,T-Shirt,T-Shirt,100,35,5.33,41.34,NO
+P383,Men's Dhoti,Men's Wear,33,101,13.99,104.84,YES
+P384,Cotton Saree,Saree,83,57,8.18,75.26,NO
+P385,Men's Dhoti,Men's Wear,152,21,3.18,28.77,NO
+P386,Formal Shirt,Shirt,195,39,6.0,45.99,NO
+P387,Cotton Saree,Saree,73,36,4.98,37.94,NO
+P388,Formal Shirt,Shirt,87,57,8.08,62.73,NO
+P389,Kids Dress,Kids Wear,84,50,7.02,76.45,YES
+P390,Silk Saree,Saree,10,72,9.28,94.73,YES
+P391,Men's Dhoti,Men's Wear,90,19,2.6,30.07,NO
+P392,Silk Saree,Saree,143,65,9.21,111.57,NO
+P393,Silk Saree,Saree,188,53,7.44,67.11,NO
+P394,Kurti,Kurti,126,34,5.07,31.39,NO
+P395,Cotton Saree,Saree,112,87,12.14,76.28,NO
+P396,Kids Dress,Kids Wear,79,66,9.41,73.47,NO
+P397,Formal Shirt,Shirt,6,32,4.51,51.86,YES
+P398,T-Shirt,T-Shirt,15,81,12.13,111.13,YES
+P399,Cotton Shirt,Shirt,15,44,6.74,50.81,YES
+P400,T-Shirt,T-Shirt,167,141,20.27,173.28,YES
+P401,Cotton Shirt,Shirt,11,60,9.07,87.09,YES
+P402,Men's Dhoti,Men's Wear,34,10,1.37,12.94,NO
+P403,Jeans,Jeans,20,62,8.93,61.27,YES
+P404,T-Shirt,T-Shirt,177,56,7.75,94.47,NO
+P405,Chudidar,Traditional Wear,170,46,6.46,59.08,NO
+P406,Chudidar,Traditional Wear,16,4,0.6,5.9,NO
+P407,Salwar,Traditional Wear,31,27,4.15,49.52,YES
+P408,Cotton Saree,Saree,40,17,2.24,14.69,YES
+P409,Cotton Shirt,Shirt,133,32,4.69,55.42,NO
+P410,Cotton Shirt,Shirt,26,72,10.45,125.85,YES
+P411,Leggings,Women's Wear,147,19,2.51,25.37,NO
+P412,Palazzo,Women's Wear,152,47,6.33,69.57,NO
+P413,Cotton Saree,Saree,65,35,4.81,37.15,NO
+P414,Kurti,Kurti,136,51,6.8,79.93,NO
+P415,Salwar,Traditional Wear,91,80,10.84,101.01,YES
+P416,Kurti,Kurti,180,67,9.13,95.48,NO
+P417,Men's Dhoti,Men's Wear,60,84,11.61,138.41,YES
+P418,Men's Dhoti,Men's Wear,165,50,7.5,89.23,YES
+P419,Kurti,Kurti,2,72,10.43,118.0,YES
+P420,Kurti,Kurti,197,90,14.11,110.92,NO
+P421,Kids Dress,Kids Wear,102,13,1.83,23.03,NO
+P422,Cotton Saree,Saree,54,8,1.2,11.13,NO
+P423,Kurti,Kurti,0,17,2.61,30.89,YES
+P424,Chudidar,Traditional Wear,100,15,2.22,24.09,NO
+P425,Palazzo,Women's Wear,197,108,15.16,119.41,NO
+P426,Palazzo,Women's Wear,44,74,11.11,91.44,YES
+P427,Silk Saree,Saree,174,122,16.4,154.6,NO
+P428,Jeans,Jeans,25,70,9.66,106.43,YES
+P429,Men's Dhoti,Men's Wear,120,37,5.34,42.24,NO
+P430,Cotton Shirt,Shirt,141,115,16.68,161.92,YES
+P431,Leggings,Women's Wear,181,83,10.72,86.31,NO
+P432,Women's Top,Women's Wear,198,113,17.58,194.85,NO
+P433,Cotton Shirt,Shirt,45,30,4.45,40.59,NO
+P434,Jeans,Jeans,121,91,12.99,84.33,NO
+P435,Leggings,Women's Wear,30,13,2.02,15.59,NO
+P436,Kids Dress,Kids Wear,58,42,5.93,39.55,NO
+P437,Cotton Saree,Saree,28,9,1.41,12.53,YES
+P438,T-Shirt,T-Shirt,105,72,10.31,66.7,NO
+P439,Cotton Saree,Saree,16,94,12.39,80.75,YES
+P440,Cotton Shirt,Shirt,141,132,19.86,236.82,YES
+P441,Cotton Shirt,Shirt,163,0,0.0,1.5,NO
+P442,Leggings,Women's Wear,185,36,5.42,46.57,NO
+P443,Leggings,Women's Wear,23,53,8.26,99.08,YES
+P444,Men's Dhoti,Men's Wear,108,8,1.21,5.45,NO
+P445,Kids Dress,Kids Wear,190,46,6.72,67.27,NO
+P446,Men's Dhoti,Men's Wear,90,46,7.04,68.47,NO
+P447,Jeans,Jeans,24,50,7.39,64.87,YES
+P448,Kurti,Kurti,186,42,5.89,49.79,NO
+P449,Cotton Saree,Saree,31,40,6.15,55.59,YES
+P450,Leggings,Women's Wear,115,22,2.97,26.04,NO
+P451,Formal Shirt,Shirt,81,23,3.43,36.65,NO
+P452,Jeans,Jeans,109,4,0.62,2.92,NO
+P453,Chudidar,Traditional Wear,145,44,6.58,47.4,NO
+P454,Kids Dress,Kids Wear,36,24,3.56,26.09,NO
+P455,Cotton Shirt,Shirt,25,5,0.75,7.6,NO
+P456,Men's Dhoti,Men's Wear,136,17,2.41,21.12,NO
+P457,Jeans,Jeans,63,71,10.9,70.53,YES
+P458,Women's Top,Women's Wear,71,134,18.01,203.97,YES
+P459,Cotton Saree,Saree,147,101,13.35,103.95,NO
+P460,Leggings,Women's Wear,181,58,7.93,56.59,NO
+P461,Cotton Shirt,Shirt,105,53,7.62,75.8,NO
+P462,T-Shirt,T-Shirt,85,12,1.72,10.47,NO
+P463,Women's Top,Women's Wear,157,122,18.55,182.14,NO
+P464,Kids Dress,Kids Wear,52,65,9.11,92.49,YES
+P465,Jeans,Jeans,91,73,10.4,75.76,YES
+P466,Salwar,Traditional Wear,98,44,5.67,34.25,NO
+P467,Cotton Shirt,Shirt,190,61,8.56,69.95,NO
+P468,Cotton Saree,Saree,10,45,6.62,44.32,YES
+P469,Silk Saree,Saree,30,82,10.58,70.8,YES
+P470,Formal Shirt,Shirt,176,104,14.21,105.81,NO
+P471,Casual Shirt,Shirt,99,38,5.11,41.76,NO
+P472,Women's Top,Women's Wear,86,76,9.86,92.13,NO
+P473,Kurti,Kurti,146,8,1.14,12.72,NO
+P474,Casual Shirt,Shirt,139,62,8.29,78.6,NO
+P475,Cotton Saree,Saree,14,10,1.5,8.52,NO
+P476,Chudidar,Traditional Wear,158,60,9.17,62.58,NO
+P477,Men's Dhoti,Men's Wear,170,93,13.41,152.79,NO
+P478,Chudidar,Traditional Wear,100,32,5.01,47.09,NO
+P479,Silk Saree,Saree,164,64,9.05,105.19,NO
+P480,Women's Top,Women's Wear,28,13,1.86,15.25,NO
+P481,Kurti,Kurti,113,17,2.67,25.38,NO
+P482,Salwar,Traditional Wear,106,47,6.35,58.98,NO
+P483,Silk Saree,Saree,153,4,0.62,3.38,NO
+P484,Women's Top,Women's Wear,107,24,3.12,28.24,NO
+P485,Palazzo,Women's Wear,129,68,9.61,87.88,NO
+P486,Casual Shirt,Shirt,83,45,5.88,43.59,NO
+P487,Silk Saree,Saree,14,56,8.37,68.36,YES
+P488,Casual Shirt,Shirt,131,23,3.36,35.75,NO
+P489,Cotton Shirt,Shirt,49,47,6.99,81.96,YES
+P490,Chudidar,Traditional Wear,165,50,6.96,58.82,NO
+P491,Cotton Shirt,Shirt,22,59,8.21,65.87,YES
+P492,Formal Shirt,Shirt,58,47,6.1,43.75,NO
+P493,Palazzo,Women's Wear,89,70,9.7,100.96,YES
+P494,Kurti,Kurti,114,52,8.07,62.67,NO
+P495,Salwar,Traditional Wear,74,41,5.72,71.35,NO
+P496,Kids Dress,Kids Wear,155,118,17.97,141.99,NO
+P497,Casual Shirt,Shirt,193,34,5.19,43.96,NO
+P498,Salwar,Traditional Wear,122,91,12.67,125.11,YES
+P499,Casual Shirt,Shirt,135,83,12.17,132.93,NO
+P500,Cotton Saree,Saree,156,64,8.4,74.72,NO
+P501,Silk Saree,Saree,138,114,14.99,128.4,NO
+P502,Formal Shirt,Shirt,17,62,8.06,100.32,YES
+P503,Chudidar,Traditional Wear,182,46,6.68,41.48,NO
+P504,Kids Dress,Kids Wear,49,60,8.44,98.65,YES
+P505,Leggings,Women's Wear,141,38,5.48,38.11,NO
+P506,Casual Shirt,Shirt,117,64,9.18,101.36,NO
+P507,Salwar,Traditional Wear,136,124,17.18,168.67,YES
+P508,Formal Shirt,Shirt,138,48,7.1,57.33,NO
+P509,T-Shirt,T-Shirt,190,44,6.61,76.64,NO
+P510,Kids Dress,Kids Wear,107,78,10.06,60.11,NO
+P511,T-Shirt,T-Shirt,66,27,3.63,25.04,NO
+P512,Cotton Shirt,Shirt,180,11,1.64,13.91,NO
+P513,Chudidar,Traditional Wear,166,51,7.12,56.59,NO
+P514,Men's Dhoti,Men's Wear,77,112,16.52,163.3,YES
+P515,Men's Dhoti,Men's Wear,183,17,2.35,14.23,NO
+P516,Leggings,Women's Wear,155,21,2.93,20.43,NO
+P517,Cotton Saree,Saree,74,12,1.6,10.37,NO
+P518,Salwar,Traditional Wear,38,6,0.82,4.89,NO
+P519,Women's Top,Women's Wear,24,4,0.58,4.52,NO
+P520,Leggings,Women's Wear,20,45,6.34,68.94,YES
+P521,Silk Saree,Saree,137,38,5.73,67.28,NO
+P522,Silk Saree,Saree,170,13,1.99,24.06,NO
+P523,Salwar,Traditional Wear,14,79,11.38,82.55,YES
+P524,Women's Top,Women's Wear,47,12,1.8,15.99,NO
+P525,Kurti,Kurti,85,12,1.65,12.33,NO
+P526,Cotton Saree,Saree,148,55,7.72,60.57,NO
+P527,Formal Shirt,Shirt,187,48,7.15,66.38,NO
+P528,Casual Shirt,Shirt,115,14,1.95,10.54,NO
+P529,Women's Top,Women's Wear,49,65,9.45,69.35,YES
+P530,Men's Dhoti,Men's Wear,150,22,2.95,35.69,NO
+P531,Kids Dress,Kids Wear,140,127,18.5,165.4,YES
+P532,Kurti,Kurti,68,92,14.09,122.22,YES
+P533,Casual Shirt,Shirt,3,65,9.97,61.71,YES
+P534,Casual Shirt,Shirt,77,33,4.93,38.84,NO
+P535,Kurti,Kurti,199,88,13.19,149.41,NO
+P536,Cotton Shirt,Shirt,8,32,4.62,33.81,YES
+P537,T-Shirt,T-Shirt,120,12,1.74,13.29,NO
+P538,Casual Shirt,Shirt,114,50,6.62,38.21,NO
+P539,Kurti,Kurti,162,14,1.98,16.26,NO
+P540,Women's Top,Women's Wear,100,100,14.15,84.3,NO
+P541,Kurti,Kurti,148,57,8.89,100.18,NO
+P542,Palazzo,Women's Wear,185,10,1.41,13.95,NO
+P543,Leggings,Women's Wear,145,70,10.1,109.31,NO
+P544,Jeans,Jeans,96,93,13.37,101.83,NO
+P545,Cotton Shirt,Shirt,199,119,17.46,195.16,NO
+P546,Chudidar,Traditional Wear,80,82,12.3,113.62,YES
+P547,Jeans,Jeans,42,97,13.1,109.47,YES
+P548,Leggings,Women's Wear,94,122,17.53,171.9,YES
+P549,Leggings,Women's Wear,5,65,9.89,61.02,YES
+P550,Leggings,Women's Wear,66,33,4.68,33.33,NO
+P551,Jeans,Jeans,139,46,6.28,64.79,NO
+P552,Salwar,Traditional Wear,99,122,17.97,136.15,YES
+P553,T-Shirt,T-Shirt,11,2,0.3,1.03,NO
+P554,Kurti,Kurti,65,94,12.26,101.65,YES
+P555,Kids Dress,Kids Wear,1,18,2.71,28.85,YES
+P556,T-Shirt,T-Shirt,142,26,3.95,46.55,NO
+P557,Men's Dhoti,Men's Wear,150,33,4.68,53.95,NO
+P558,Women's Top,Women's Wear,156,21,3.29,26.37,NO
+P559,Cotton Saree,Saree,80,104,15.71,112.04,YES
+P560,Salwar,Traditional Wear,134,72,10.85,97.81,NO
+P561,Chudidar,Traditional Wear,155,109,16.34,96.73,NO
+P562,T-Shirt,T-Shirt,141,86,11.43,70.87,NO
+P563,Kids Dress,Kids Wear,171,6,0.81,6.59,NO
+P564,Silk Saree,Saree,157,53,7.52,67.97,NO
+P565,Leggings,Women's Wear,159,37,5.04,60.31,NO
+P566,Casual Shirt,Shirt,69,47,6.6,46.39,NO
+P567,Men's Dhoti,Men's Wear,114,26,4.0,30.36,NO
+P568,Cotton Saree,Saree,87,50,7.61,52.1,NO
+P569,Cotton Shirt,Shirt,5,80,11.73,135.92,YES
+P570,Chudidar,Traditional Wear,26,129,19.75,215.12,YES
+P571,Women's Top,Women's Wear,81,97,14.64,163.57,YES
+P572,Cotton Saree,Saree,87,46,6.48,76.9,NO
+P573,Leggings,Women's Wear,119,39,5.24,47.48,NO
+P574,Casual Shirt,Shirt,23,38,5.44,47.63,YES
+P575,Salwar,Traditional Wear,101,18,2.69,23.31,NO
+P576,Casual Shirt,Shirt,33,105,14.81,143.73,YES
+P577,Jeans,Jeans,167,91,13.43,117.9,NO
+P578,Casual Shirt,Shirt,46,27,3.54,29.66,NO
+P579,Jeans,Jeans,23,57,8.55,100.39,YES
+P580,Men's Dhoti,Men's Wear,64,11,1.67,20.61,YES
+P581,Salwar,Traditional Wear,17,51,7.59,84.12,YES
+P582,Women's Top,Women's Wear,43,17,2.66,27.01,NO
+P583,Formal Shirt,Shirt,75,50,7.61,78.31,YES
+P584,Leggings,Women's Wear,56,3,0.46,3.42,NO
+P585,Jeans,Jeans,106,33,5.12,32.43,NO
+P586,Cotton Shirt,Shirt,155,94,14.24,147.45,NO
+P587,Casual Shirt,Shirt,123,10,1.48,16.95,NO
+P588,Casual Shirt,Shirt,198,3,0.39,1.73,NO
+P589,Cotton Shirt,Shirt,150,35,4.97,60.19,NO
+P590,Women's Top,Women's Wear,161,9,1.3,7.12,YES
+P591,Silk Saree,Saree,138,76,10.43,79.54,NO
+P592,Men's Dhoti,Men's Wear,162,16,2.2,21.48,YES
+P593,Kurti,Kurti,115,46,7.18,48.88,NO
+P594,Formal Shirt,Shirt,92,122,18.79,117.28,YES
+P595,Chudidar,Traditional Wear,41,0,0.0,0.0,NO
+P596,Kids Dress,Kids Wear,27,73,10.23,111.52,YES
+P597,Jeans,Jeans,122,94,12.12,102.26,NO
+P598,Cotton Shirt,Shirt,23,4,0.52,6.22,NO
+P599,Kids Dress,Kids Wear,135,92,12.65,119.65,NO
+P600,Salwar,Traditional Wear,105,70,9.03,56.79,NO
+P601,Women's Top,Women's Wear,117,108,13.94,170.6,YES
+P602,Jeans,Jeans,52,79,12.23,73.99,YES
+P603,Kurti,Kurti,199,59,8.78,106.83,NO
+P604,Kids Dress,Kids Wear,131,73,10.03,94.48,NO
+P605,Salwar,Traditional Wear,99,104,13.77,166.6,YES
+P606,Cotton Saree,Saree,4,44,6.3,42.13,YES
+P607,Leggings,Women's Wear,48,82,10.56,96.02,YES
+P608,Casual Shirt,Shirt,97,89,13.83,98.2,YES
+P609,Cotton Saree,Saree,29,18,2.53,15.49,NO
+P610,Jeans,Jeans,71,21,2.94,26.94,NO
+P611,Kurti,Kurti,102,22,3.07,23.69,NO
+P612,Formal Shirt,Shirt,62,6,0.78,7.05,NO
+P613,Kids Dress,Kids Wear,174,23,3.38,22.49,NO
+P614,Men's Dhoti,Men's Wear,25,83,12.41,97.83,YES
+P615,Leggings,Women's Wear,184,21,3.11,33.79,NO
+P616,Jeans,Jeans,36,65,8.61,76.88,YES
+P617,Women's Top,Women's Wear,6,22,3.19,30.71,YES
+P618,Cotton Shirt,Shirt,126,78,11.3,112.91,NO
+P619,Men's Dhoti,Men's Wear,167,118,18.1,204.66,YES
+P620,Men's Dhoti,Men's Wear,91,75,10.46,84.91,NO
+P621,Men's Dhoti,Men's Wear,166,109,15.17,155.62,NO
+P622,T-Shirt,T-Shirt,189,8,1.17,13.29,NO
+P623,Jeans,Jeans,102,125,18.33,195.14,YES
+P624,Leggings,Women's Wear,52,16,2.27,21.22,NO
+P625,Casual Shirt,Shirt,131,68,9.6,93.74,NO
+P626,Casual Shirt,Shirt,107,8,1.14,10.37,NO
+P627,Jeans,Jeans,111,46,7.05,69.08,NO
+P628,Salwar,Traditional Wear,152,82,11.62,69.24,NO
+P629,T-Shirt,T-Shirt,6,26,4.04,28.01,YES
+P630,Cotton Shirt,Shirt,155,26,3.72,42.64,YES
+P631,Men's Dhoti,Men's Wear,196,17,2.65,18.68,NO
+P632,Men's Dhoti,Men's Wear,66,22,3.35,36.23,NO
+P633,Jeans,Jeans,107,34,4.72,38.23,NO
+P634,Salwar,Traditional Wear,110,15,2.3,22.29,NO
+P635,Casual Shirt,Shirt,147,63,8.3,53.83,NO
+P636,Casual Shirt,Shirt,82,6,0.93,4.62,NO
+P637,Kurti,Kurti,123,110,16.13,193.28,YES
+P638,Jeans,Jeans,138,28,3.64,40.63,NO
+P639,T-Shirt,T-Shirt,103,19,2.79,29.53,NO
+P640,Silk Saree,Saree,66,22,3.44,31.92,NO
+P641,T-Shirt,T-Shirt,6,11,1.44,14.37,YES
+P642,Women's Top,Women's Wear,150,139,20.07,197.41,YES
+P643,Casual Shirt,Shirt,188,52,7.8,73.56,NO
+P644,Casual Shirt,Shirt,198,9,1.37,9.53,NO
+P645,Cotton Saree,Saree,109,52,7.3,71.97,NO
+P646,Casual Shirt,Shirt,33,28,3.76,39.66,YES
+P647,Cotton Shirt,Shirt,105,23,2.98,36.12,NO
+P648,Chudidar,Traditional Wear,146,49,7.11,41.17,NO
+P649,Jeans,Jeans,57,89,12.59,133.81,YES
+P650,Kids Dress,Kids Wear,8,14,2.18,18.87,YES
+P651,T-Shirt,T-Shirt,47,75,9.77,85.43,YES
+P652,Chudidar,Traditional Wear,114,57,8.44,55.73,NO
+P653,Salwar,Traditional Wear,40,30,3.88,32.02,NO
+P654,Silk Saree,Saree,47,19,2.54,21.33,NO
+P655,Cotton Shirt,Shirt,172,8,1.13,10.85,NO
+P656,Leggings,Women's Wear,24,58,8.21,87.76,YES
+P657,Palazzo,Women's Wear,115,138,20.45,210.86,YES
+P658,T-Shirt,T-Shirt,77,63,9.74,92.8,NO
+P659,Chudidar,Traditional Wear,107,54,7.93,95.54,NO
+P660,Leggings,Women's Wear,24,49,7.63,61.99,YES
+P661,Silk Saree,Saree,146,80,12.3,90.63,NO
+P662,Cotton Saree,Saree,38,111,16.13,164.07,YES
+P663,Leggings,Women's Wear,118,19,2.9,22.15,NO
+P664,Cotton Shirt,Shirt,78,82,12.05,97.55,YES
+P665,Cotton Shirt,Shirt,79,52,6.8,51.72,NO
+P666,Kids Dress,Kids Wear,26,114,17.07,110.41,YES
+P667,Cotton Saree,Saree,103,0,0.0,0.0,NO
+P668,Palazzo,Women's Wear,73,18,2.62,18.21,NO
+P669,Jeans,Jeans,190,18,2.68,24.21,NO
+P670,Leggings,Women's Wear,67,79,10.31,64.28,NO
+P671,Cotton Saree,Saree,146,132,17.84,184.58,YES
+P672,Cotton Shirt,Shirt,27,16,2.48,19.51,NO
+P673,Cotton Shirt,Shirt,122,138,20.17,214.37,YES
+P674,Chudidar,Traditional Wear,160,92,12.48,106.96,NO
+P675,Casual Shirt,Shirt,137,106,15.72,110.93,NO
+P676,Palazzo,Women's Wear,82,18,2.62,23.1,NO
+P677,Leggings,Women's Wear,29,66,9.43,63.93,YES
+P678,Kids Dress,Kids Wear,21,29,4.54,40.5,YES
+P679,Kids Dress,Kids Wear,2,8,1.18,8.08,YES
+P680,Leggings,Women's Wear,100,11,1.53,18.08,NO
+P681,Women's Top,Women's Wear,104,81,12.27,78.57,NO
+P682,Men's Dhoti,Men's Wear,175,104,16.0,164.94,NO
+P683,Silk Saree,Saree,1,12,1.59,9.4,YES
+P684,Kids Dress,Kids Wear,53,74,9.94,78.92,YES
+P685,Cotton Saree,Saree,5,95,12.8,108.85,YES
+P686,Silk Saree,Saree,106,55,8.16,96.95,NO
+P687,Cotton Saree,Saree,167,108,15.75,116.28,NO
+P688,Salwar,Traditional Wear,122,55,8.04,53.07,NO
+P689,Cotton Shirt,Shirt,1,39,6.06,46.43,YES
+P690,Casual Shirt,Shirt,200,16,2.41,15.71,NO
+P691,Chudidar,Traditional Wear,110,6,0.79,5.56,NO
+P692,Kids Dress,Kids Wear,1,61,8.45,80.02,YES
+P693,Casual Shirt,Shirt,92,102,14.38,90.9,NO
+P694,Casual Shirt,Shirt,182,1,0.14,0.0,NO
+P695,Casual Shirt,Shirt,199,94,13.88,144.27,NO
+P696,Men's Dhoti,Men's Wear,100,43,6.62,54.96,NO
+P697,Silk Saree,Saree,187,47,6.45,42.68,NO
+P698,Cotton Saree,Saree,96,73,10.54,81.15,NO
+P699,Formal Shirt,Shirt,110,65,9.82,98.67,NO
+P700,Salwar,Traditional Wear,5,22,3.09,23.5,YES
+P701,T-Shirt,T-Shirt,126,15,2.0,16.29,NO
+P702,Casual Shirt,Shirt,103,4,0.57,3.83,NO
+P703,Jeans,Jeans,146,6,0.78,8.59,NO
+P704,Silk Saree,Saree,154,68,10.57,83.0,NO
+P705,Kids Dress,Kids Wear,0,58,7.58,76.27,YES
+P706,Palazzo,Women's Wear,32,25,3.53,37.99,YES
+P707,Kids Dress,Kids Wear,39,60,8.62,85.8,YES
+P708,Chudidar,Traditional Wear,31,6,0.94,5.69,NO
+P709,T-Shirt,T-Shirt,196,94,12.53,96.21,NO
+P710,Formal Shirt,Shirt,16,117,15.43,123.63,YES
+P711,Jeans,Jeans,125,21,2.71,18.12,NO
+P712,Kids Dress,Kids Wear,7,70,9.31,65.08,YES
+P713,Formal Shirt,Shirt,56,7,0.94,10.0,NO
+P714,T-Shirt,T-Shirt,41,33,4.84,42.53,YES
+P715,Casual Shirt,Shirt,97,52,7.01,59.85,NO
+P716,Jeans,Jeans,136,27,3.49,32.24,NO
+P717,Formal Shirt,Shirt,119,43,6.54,63.55,NO
+P718,Chudidar,Traditional Wear,86,19,2.64,16.78,NO
+P719,Cotton Saree,Saree,162,19,2.63,29.52,YES
+P720,Cotton Shirt,Shirt,198,69,9.47,67.59,NO
+P721,Cotton Saree,Saree,180,28,4.38,45.08,NO
+P722,T-Shirt,T-Shirt,53,83,11.07,121.4,YES
+P723,Silk Saree,Saree,83,44,6.79,70.72,NO
+P724,Cotton Shirt,Shirt,24,59,8.9,83.93,YES
+P725,Salwar,Traditional Wear,66,10,1.31,8.88,NO
+P726,Chudidar,Traditional Wear,189,56,8.78,72.75,NO
+P727,Salwar,Traditional Wear,182,48,6.54,63.1,YES
+P728,Men's Dhoti,Men's Wear,173,90,11.82,99.67,NO
+P729,Jeans,Jeans,151,105,15.99,181.0,YES
+P730,Leggings,Women's Wear,45,67,9.97,78.5,YES
+P731,Cotton Shirt,Shirt,21,59,8.63,68.91,YES
+P732,Salwar,Traditional Wear,138,49,6.52,48.25,NO
+P733,Kids Dress,Kids Wear,175,63,8.96,71.64,NO
+P734,Salwar,Traditional Wear,7,103,15.54,148.32,YES
+P735,Formal Shirt,Shirt,38,114,15.65,164.7,YES
+P736,Cotton Saree,Saree,162,33,4.54,45.78,NO
+P737,Formal Shirt,Shirt,48,0,0.0,0.03,NO
+P738,Men's Dhoti,Men's Wear,45,30,4.01,46.53,YES
+P739,Cotton Shirt,Shirt,37,68,10.44,117.52,YES
+P740,Cotton Shirt,Shirt,135,16,2.26,15.15,NO
+P741,Men's Dhoti,Men's Wear,53,80,12.54,131.43,YES
+P742,T-Shirt,T-Shirt,164,8,1.12,7.88,NO
+P743,Formal Shirt,Shirt,91,14,2.09,14.04,NO
+P744,Kurti,Kurti,39,72,9.84,99.29,YES
+P745,Kids Dress,Kids Wear,33,150,20.84,166.39,YES
+P746,Palazzo,Women's Wear,95,6,0.8,5.66,NO
+P747,Cotton Saree,Saree,78,78,10.8,75.62,YES
+P748,Cotton Shirt,Shirt,126,113,16.3,95.38,NO
+P749,T-Shirt,T-Shirt,16,16,2.51,28.11,YES
+P750,Leggings,Women's Wear,160,105,15.49,94.2,NO
+P751,Kids Dress,Kids Wear,174,30,4.03,28.69,NO
+P752,Formal Shirt,Shirt,109,23,2.99,23.72,NO
+P753,Cotton Saree,Saree,51,88,11.63,93.69,YES
+P754,Leggings,Women's Wear,117,6,0.87,10.9,NO
+P755,Formal Shirt,Shirt,8,71,10.68,67.77,YES
+P756,Salwar,Traditional Wear,32,122,18.96,174.05,YES
+P757,Leggings,Women's Wear,187,16,2.06,21.25,NO
+P758,Men's Dhoti,Men's Wear,112,74,10.62,124.55,NO
+P759,Women's Top,Women's Wear,148,136,19.32,191.53,YES
+P760,T-Shirt,T-Shirt,185,25,3.68,41.54,YES
+P761,Cotton Saree,Saree,84,93,13.44,87.41,YES
+P762,Casual Shirt,Shirt,196,73,10.82,89.54,NO
+P763,Women's Top,Women's Wear,9,59,8.7,70.65,YES
+P764,Jeans,Jeans,5,86,11.34,129.05,YES
+P765,Jeans,Jeans,114,14,2.12,15.01,NO
+P766,Cotton Saree,Saree,120,97,12.81,89.78,NO
+P767,Leggings,Women's Wear,140,91,13.52,109.86,NO
+P768,Formal Shirt,Shirt,64,58,8.15,51.14,NO
+P769,T-Shirt,T-Shirt,19,63,9.02,65.17,YES
+P770,Palazzo,Women's Wear,56,64,9.88,120.65,NO
+P771,Jeans,Jeans,45,61,9.39,80.3,YES
+P772,T-Shirt,T-Shirt,135,67,10.18,100.7,NO
+P773,Jeans,Jeans,9,51,7.3,78.55,YES
+P774,Salwar,Traditional Wear,200,39,5.83,47.52,NO
+P775,Formal Shirt,Shirt,112,38,5.44,39.07,NO
+P776,Salwar,Traditional Wear,194,73,11.2,83.14,NO
+P777,Kids Dress,Kids Wear,138,19,2.66,21.72,NO
+P778,Jeans,Jeans,11,0,0.0,1.27,NO
+P779,Casual Shirt,Shirt,137,75,11.64,99.46,YES
+P780,Casual Shirt,Shirt,152,89,13.33,80.68,NO
+P781,Salwar,Traditional Wear,176,42,5.74,52.31,NO
+P782,Men's Dhoti,Men's Wear,176,61,8.07,93.1,NO
+P783,Women's Top,Women's Wear,10,46,7.04,77.28,YES
+P784,Casual Shirt,Shirt,189,66,8.8,98.78,NO
+P785,Jeans,Jeans,117,6,0.92,8.49,NO
+P786,Cotton Saree,Saree,163,54,7.7,59.57,NO
+P787,Salwar,Traditional Wear,38,73,10.23,108.74,YES
+P788,Kids Dress,Kids Wear,52,132,20.38,140.51,YES
+P789,Palazzo,Women's Wear,55,63,9.19,94.65,YES
+P790,Palazzo,Women's Wear,103,12,1.74,19.32,NO
+P791,Silk Saree,Saree,128,2,0.29,1.75,NO
+P792,Women's Top,Women's Wear,55,9,1.25,15.12,NO
+P793,Leggings,Women's Wear,117,47,7.1,83.59,NO
+P794,Formal Shirt,Shirt,131,9,1.22,9.32,NO
+P795,Casual Shirt,Shirt,29,56,8.7,96.58,YES
+P796,Casual Shirt,Shirt,11,49,7.55,47.39,YES
+P797,Leggings,Women's Wear,34,16,2.21,23.25,NO
+P798,Cotton Shirt,Shirt,76,77,11.5,103.02,YES
+P799,Kids Dress,Kids Wear,179,12,1.74,16.12,NO
+P800,Kurti,Kurti,158,30,4.15,49.59,NO
+P801,Salwar,Traditional Wear,101,9,1.41,15.47,NO
+P802,Men's Dhoti,Men's Wear,86,118,15.26,165.29,YES
+P803,Kids Dress,Kids Wear,195,20,2.72,21.4,NO
+P804,Chudidar,Traditional Wear,51,114,16.35,189.3,YES
+P805,Casual Shirt,Shirt,79,78,11.19,74.34,NO
+P806,Formal Shirt,Shirt,134,101,14.69,166.43,YES
+P807,Silk Saree,Saree,21,92,13.8,111.06,YES
+P808,Palazzo,Women's Wear,74,70,10.25,64.99,NO
+P809,Casual Shirt,Shirt,183,10,1.46,14.95,NO
+P810,Silk Saree,Saree,57,87,11.32,84.18,YES
+P811,Jeans,Jeans,92,41,5.71,43.47,YES
+P812,Kids Dress,Kids Wear,191,36,4.87,39.38,NO
+P813,Jeans,Jeans,102,64,8.71,56.23,NO
+P814,Kurti,Kurti,139,1,0.14,2.47,NO
+P815,Cotton Saree,Saree,6,42,5.64,32.5,YES
+P816,Chudidar,Traditional Wear,127,83,11.37,99.16,NO
+P817,Kids Dress,Kids Wear,54,65,8.8,58.82,YES
+P818,Cotton Shirt,Shirt,105,70,10.9,111.32,YES
+P819,Kurti,Kurti,61,43,6.69,48.24,NO
+P820,T-Shirt,T-Shirt,89,71,10.37,123.45,YES
+P821,Cotton Shirt,Shirt,200,21,3.25,35.61,NO
+P822,Women's Top,Women's Wear,97,72,10.87,83.31,NO
+P823,Salwar,Traditional Wear,76,71,10.33,114.43,YES
+P824,Formal Shirt,Shirt,182,59,7.6,83.84,NO
+P825,Kids Dress,Kids Wear,118,84,12.65,153.03,YES
+P826,T-Shirt,T-Shirt,35,35,5.2,52.5,YES
+P827,T-Shirt,T-Shirt,88,64,9.35,62.33,NO
+P828,Kurti,Kurti,151,52,7.82,78.16,NO
+P829,Leggings,Women's Wear,171,52,7.45,72.7,NO
+P830,Women's Top,Women's Wear,144,58,8.62,87.31,YES
+P831,Cotton Saree,Saree,129,74,11.49,91.46,NO
+P832,Kids Dress,Kids Wear,140,58,8.08,92.58,NO
+P833,Leggings,Women's Wear,158,70,10.42,126.56,NO
+P834,Kurti,Kurti,92,16,2.27,17.38,NO
+P835,Salwar,Traditional Wear,113,53,7.84,50.14,NO
+P836,Palazzo,Women's Wear,27,20,3.01,22.37,NO
+P837,Casual Shirt,Shirt,187,66,8.57,94.52,NO
+P838,Casual Shirt,Shirt,154,52,7.65,79.17,NO
+P839,Cotton Saree,Saree,142,42,5.67,56.94,NO
+P840,Salwar,Traditional Wear,32,61,9.01,74.73,YES
+P841,Men's Dhoti,Men's Wear,19,16,2.27,21.82,YES
+P842,Cotton Saree,Saree,169,45,6.78,52.86,NO
+P843,Kids Dress,Kids Wear,139,8,1.06,8.81,NO
+P844,Kids Dress,Kids Wear,100,62,9.08,99.8,NO
+P845,Silk Saree,Saree,200,117,15.97,193.03,NO
+P846,Leggings,Women's Wear,22,12,1.84,22.86,YES
+P847,Men's Dhoti,Men's Wear,199,45,6.98,80.88,NO
+P848,Casual Shirt,Shirt,111,40,6.28,53.92,NO
+P849,T-Shirt,T-Shirt,13,62,9.38,84.75,YES
+P850,Leggings,Women's Wear,90,9,1.35,14.73,NO
+P851,Chudidar,Traditional Wear,152,33,4.45,52.32,NO
+P852,Kids Dress,Kids Wear,76,96,13.26,92.56,YES
+P853,Women's Top,Women's Wear,84,11,1.56,11.47,NO
+P854,Formal Shirt,Shirt,108,15,2.26,13.51,NO
+P855,Salwar,Traditional Wear,30,54,8.35,81.61,YES
+P856,Cotton Shirt,Shirt,121,75,10.05,77.32,NO
+P857,Cotton Saree,Saree,106,17,2.63,22.87,NO
+P858,Kids Dress,Kids Wear,53,40,5.94,36.84,NO
+P859,Leggings,Women's Wear,132,50,7.3,60.68,NO
+P860,Men's Dhoti,Men's Wear,140,112,15.04,172.31,YES
+P861,Formal Shirt,Shirt,155,0,0.0,0.0,NO
+P862,Women's Top,Women's Wear,42,79,11.44,118.66,YES
+P863,Leggings,Women's Wear,88,40,5.89,56.6,NO
+P864,Cotton Shirt,Shirt,114,81,10.9,124.08,YES
+P865,Formal Shirt,Shirt,98,62,8.96,58.84,NO
+P866,Chudidar,Traditional Wear,46,66,10.1,123.98,YES
+P867,Cotton Shirt,Shirt,70,76,11.58,113.31,YES
+P868,Kurti,Kurti,165,65,10.08,122.08,NO
+P869,Jeans,Jeans,66,67,9.31,107.69,YES
+P870,Kurti,Kurti,61,101,13.9,103.12,YES
+P871,Casual Shirt,Shirt,108,62,9.3,57.64,NO
+P872,Leggings,Women's Wear,166,44,6.2,48.46,NO
+P873,Kids Dress,Kids Wear,36,12,1.57,14.86,NO
+P874,Kids Dress,Kids Wear,118,148,20.22,141.57,YES
+P875,Kids Dress,Kids Wear,85,9,1.26,10.16,NO
+P876,Women's Top,Women's Wear,125,16,2.19,19.39,NO
+P877,Jeans,Jeans,135,16,2.21,15.26,NO
+P878,Kurti,Kurti,51,49,6.71,46.79,NO
+P879,Jeans,Jeans,90,19,2.47,19.83,NO
+P880,Palazzo,Women's Wear,32,20,2.94,16.67,NO
+P881,Leggings,Women's Wear,80,8,1.17,11.82,NO
+P882,Jeans,Jeans,41,16,2.36,22.71,NO
+P883,T-Shirt,T-Shirt,111,36,4.83,40.69,NO
+P884,Cotton Saree,Saree,125,69,9.45,109.31,NO
+P885,Cotton Saree,Saree,154,58,8.48,78.61,NO
+P886,T-Shirt,T-Shirt,135,56,8.16,71.65,NO
+P887,Formal Shirt,Shirt,150,67,9.58,83.3,NO
+P888,Silk Saree,Saree,105,13,1.8,18.77,NO
+P889,Women's Top,Women's Wear,124,22,3.4,41.19,NO
+P890,Formal Shirt,Shirt,112,84,11.62,130.42,YES
+P891,Cotton Shirt,Shirt,63,80,11.33,115.95,YES
+P892,Men's Dhoti,Men's Wear,122,11,1.63,10.0,NO
+P893,Women's Top,Women's Wear,113,24,3.46,26.8,NO
+P894,Women's Top,Women's Wear,19,12,1.66,11.09,NO
+P895,Cotton Shirt,Shirt,15,47,6.63,77.09,YES
+P896,Jeans,Jeans,144,12,1.82,18.49,YES
+P897,Kurti,Kurti,18,17,2.32,24.59,YES
+P898,Kurti,Kurti,119,24,3.18,23.45,NO
+P899,Cotton Saree,Saree,135,101,13.89,157.92,NO
+P900,Salwar,Traditional Wear,165,43,6.57,49.18,NO
+P901,Formal Shirt,Shirt,37,6,0.79,5.01,NO
+P902,Palazzo,Women's Wear,180,11,1.73,14.46,NO
+P903,Leggings,Women's Wear,92,21,3.02,28.88,NO
+P904,Casual Shirt,Shirt,104,9,1.41,11.07,NO
+P905,Chudidar,Traditional Wear,99,25,3.88,43.85,NO
+P906,Kurti,Kurti,89,87,12.31,81.23,NO
+P907,Leggings,Women's Wear,158,20,2.68,26.23,NO
+P908,Chudidar,Traditional Wear,43,33,4.4,41.76,NO
+P909,Leggings,Women's Wear,187,144,19.5,150.77,NO
+P910,Jeans,Jeans,75,88,13.1,144.15,YES
+P911,Chudidar,Traditional Wear,144,20,2.73,28.14,NO
+P912,Casual Shirt,Shirt,78,31,4.29,43.99,NO
+P913,Leggings,Women's Wear,72,113,15.98,181.79,YES
+P914,T-Shirt,T-Shirt,166,122,18.87,197.67,YES
+P915,Casual Shirt,Shirt,169,78,10.45,76.36,NO
+P916,Chudidar,Traditional Wear,175,16,2.06,20.29,NO
+P917,Casual Shirt,Shirt,139,27,3.52,25.99,NO
+P918,Leggings,Women's Wear,95,122,18.84,138.91,YES
+P919,Silk Saree,Saree,88,47,6.91,42.7,NO
+P920,Leggings,Women's Wear,102,96,13.09,137.93,YES
+P921,Leggings,Women's Wear,145,112,14.97,155.85,YES
+P922,Jeans,Jeans,5,65,8.9,66.15,YES
+P923,Formal Shirt,Shirt,121,58,7.65,80.2,YES
+P924,T-Shirt,T-Shirt,170,20,3.11,36.19,NO
+P925,Palazzo,Women's Wear,115,9,1.36,8.38,NO
+P926,Kurti,Kurti,162,54,7.66,55.54,NO
+P927,Women's Top,Women's Wear,181,22,3.37,34.01,NO
+P928,Cotton Shirt,Shirt,61,144,19.54,149.92,YES
+P929,Formal Shirt,Shirt,196,150,22.36,221.78,YES
+P930,Cotton Shirt,Shirt,143,63,9.64,61.19,YES
+P931,Jeans,Jeans,135,22,3.05,25.36,NO
+P932,T-Shirt,T-Shirt,88,31,4.66,50.97,NO
+P933,Kids Dress,Kids Wear,95,10,1.37,13.18,NO
+P934,Leggings,Women's Wear,125,66,9.05,99.21,NO
+P935,Kids Dress,Kids Wear,89,69,9.08,105.65,YES
+P936,Kids Dress,Kids Wear,85,137,19.34,210.55,YES
+P937,Men's Dhoti,Men's Wear,158,35,5.23,53.04,NO
+P938,Cotton Saree,Saree,137,84,13.06,80.27,NO
+P939,Kids Dress,Kids Wear,183,105,15.31,141.56,NO
+P940,Kurti,Kurti,120,18,2.76,15.39,NO
+P941,Silk Saree,Saree,75,130,19.77,218.57,YES
+P942,Cotton Saree,Saree,91,64,8.55,66.54,NO
+P943,Jeans,Jeans,69,14,1.99,18.69,NO
+P944,Women's Top,Women's Wear,147,62,8.18,64.83,NO
+P945,Formal Shirt,Shirt,132,17,2.52,29.23,NO
+P946,Silk Saree,Saree,22,86,13.39,153.41,YES
+P947,Casual Shirt,Shirt,136,58,7.68,65.48,NO
+P948,Chudidar,Traditional Wear,57,48,7.18,81.65,YES
+P949,Men's Dhoti,Men's Wear,186,63,9.24,72.03,NO
+P950,Silk Saree,Saree,181,59,8.57,78.94,NO
+P951,Palazzo,Women's Wear,45,27,3.77,40.84,NO
+P952,Kids Dress,Kids Wear,21,55,7.63,59.71,YES
+P953,Jeans,Jeans,191,53,6.88,81.69,NO
+P954,Salwar,Traditional Wear,7,11,1.48,9.21,YES
+P955,Chudidar,Traditional Wear,122,74,9.55,59.09,NO
+P956,Cotton Shirt,Shirt,19,9,1.31,15.98,NO
+P957,Kurti,Kurti,178,63,8.29,52.11,NO
+P958,Cotton Shirt,Shirt,77,52,7.98,97.18,YES
+P959,Silk Saree,Saree,38,57,8.18,96.08,YES
+P960,Women's Top,Women's Wear,36,62,9.21,64.34,YES
+P961,Cotton Shirt,Shirt,177,76,10.66,101.27,NO
+P962,Palazzo,Women's Wear,161,109,15.76,114.05,NO
+P963,Jeans,Jeans,74,150,23.33,203.22,YES
+P964,Casual Shirt,Shirt,117,71,9.3,57.63,NO
+P965,Women's Top,Women's Wear,103,15,2.04,13.2,NO
+P966,Formal Shirt,Shirt,160,24,3.62,30.14,NO
+P967,Kurti,Kurti,30,60,7.88,70.31,YES
+P968,Palazzo,Women's Wear,122,21,2.75,32.01,NO
+P969,Palazzo,Women's Wear,53,12,1.67,16.46,NO
+P970,Cotton Shirt,Shirt,171,66,8.66,92.98,NO
+P971,Kids Dress,Kids Wear,33,41,5.96,53.93,YES
+P972,Cotton Shirt,Shirt,198,61,8.24,92.29,NO
+P973,Silk Saree,Saree,121,54,8.32,68.01,NO
+P974,Formal Shirt,Shirt,112,96,14.49,149.88,YES
+P975,Cotton Saree,Saree,61,117,17.38,210.56,YES
+P976,Women's Top,Women's Wear,22,53,7.75,62.55,YES
+P977,Cotton Shirt,Shirt,45,72,11.03,112.99,YES
+P978,Jeans,Jeans,55,16,2.16,26.3,NO
+P979,Salwar,Traditional Wear,134,123,18.88,220.64,YES
+P980,Kurti,Kurti,117,54,8.16,83.71,NO
+P981,Leggings,Women's Wear,188,46,6.9,54.32,NO
+P982,Cotton Shirt,Shirt,130,10,1.45,11.7,NO
+P983,Jeans,Jeans,165,65,8.81,52.42,NO
+P984,Women's Top,Women's Wear,161,21,2.95,32.82,NO
+P985,Jeans,Jeans,112,26,3.93,23.26,NO
+P986,Kurti,Kurti,43,37,4.79,53.64,YES
+P987,Cotton Saree,Saree,127,64,9.66,63.07,NO
+P988,Jeans,Jeans,107,53,7.18,50.09,NO
+P989,Salwar,Traditional Wear,157,103,13.67,122.05,NO
+P990,Jeans,Jeans,16,62,8.18,86.76,YES
+P991,Jeans,Jeans,58,62,8.02,55.58,NO
+P992,Jeans,Jeans,137,19,2.73,25.44,NO
+P993,Casual Shirt,Shirt,98,36,4.85,42.16,NO
+P994,Casual Shirt,Shirt,83,42,6.59,46.24,YES
+P995,Cotton Saree,Saree,145,138,20.01,131.7,NO
+P996,Cotton Shirt,Shirt,44,100,13.25,147.23,YES
+P997,Jeans,Jeans,107,61,9.04,83.04,NO
+P998,Men's Dhoti,Men's Wear,186,23,3.55,22.35,NO
+P999,Formal Shirt,Shirt,61,115,17.23,190.83,YES
+P1000,Men's Dhoti,Men's Wear,58,65,8.5,102.07,YES

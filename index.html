@@ -4,362 +4,210 @@
 <head>
 
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <title>Textile Stock Prediction</title>
+    <link rel="stylesheet" href="/static/style.css">
 
-    <title>Student Stress Predictor</title>
 
-    <style>
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-        }
-
-        body {
-            min-height: 100vh;
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 30px;
-        }
-
-        .container {
-            width: 100%;
-            max-width: 900px;
-            background: white;
-            border-radius: 20px;
-            padding: 35px;
-            box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-        }
-
-        h1 {
-            text-align: center;
-            color: #333;
-            margin-bottom: 10px;
-        }
-
-        .subtitle {
-            text-align: center;
-            color: #777;
-            margin-bottom: 30px;
-        }
-
-        .form-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-        }
-
-        .input-group {
-            display: flex;
-            flex-direction: column;
-        }
-
-        label {
-            font-weight: bold;
-            color: #444;
-            margin-bottom: 7px;
-        }
-
-        input {
-            padding: 12px;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            font-size: 15px;
-        }
-
-        input:focus {
-            outline: none;
-            border-color: #667eea;
-        }
-
-        .predict-btn {
-            width: 100%;
-            margin-top: 30px;
-            padding: 15px;
-            border: none;
-            border-radius: 10px;
-            background: #667eea;
-            color: white;
-            font-size: 18px;
-            font-weight: bold;
-            cursor: pointer;
-        }
-
-        .predict-btn:hover {
-            background: #5568d8;
-        }
-
-        .result {
-            margin-top: 30px;
-            padding: 25px;
-            background: #f5f7ff;
-            border-radius: 15px;
-            text-align: center;
-        }
-
-        .result h2 {
-            color: #333;
-            margin-bottom: 15px;
-        }
-
-        .stress-level {
-            font-size: 30px;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-
-        .probability {
-            margin: 10px 0;
-            text-align: left;
-        }
-
-        .probability-bar {
-            height: 10px;
-            background: #ddd;
-            border-radius: 10px;
-            overflow: hidden;
-            margin-top: 5px;
-        }
-
-        .probability-fill {
-            height: 100%;
-            width: 0%;
-            background: #667eea;
-            border-radius: 10px;
-            transition: width 0.6s ease;
-        }
-
-        @media (max-width: 700px) {
-
-            .form-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .container {
-                padding: 20px;
-            }
-        }
-
-    </style>
 
 </head>
 
 
 <body>
 
-<div class="container">
+    <div class="container">
 
-    <h1>🎓 Student Stress Predictor</h1>
+        <h1>Stock Prediction</h1>
 
-    <p class="subtitle">
-        ML-Based Student Stress Level Prediction
-    </p>
+        <p class="subtitle">
+            Textile Inventory Management System
+        </p>
 
 
-    <form action="/predict" method="POST">
+        <form id="predictionForm">
 
-        <div class="form-grid">
+            <!-- Category -->
 
             <div class="input-group">
 
-                <label>
-                    Academic Pressure Score
-                </label>
+                <label>Category</label>
 
-                <input
-                    type="number"
-                    name="academic_pressure_score"
-                    min="1"
-                    max="10"
-                    required
-                >
+                <select id="category" required>
+
+                    <option value="">Select Category</option>
+
+                    <option value="Kids Wear">
+                        Kids Wear
+                    </option>
+
+                    <option value="T-Shirt">
+                        Kurti
+                    </option>
+
+                    <option value="Traditional Wear">
+                        Traditional Wear
+                    </option>
+
+                    <option value="Women's Wear">
+                        Women's Wear
+                    </option>
+
+                    <option value="Men's Wear">
+                        Men's Wear
+                    
+                    <option value="Men's Wear">
+                        T-Shirt
+
+                    <option value="Men's Wear">
+                        Saree
+
+                    <option value="Men's Wear">
+                        Shirt
+                    </option>
+
+                </select>
 
             </div>
 
 
-            <div class="input-group">
-
-                <label>
-                    Anxiety Score
-                </label>
-
-                <input
-                    type="number"
-                    name="anxiety_score"
-                    min="1"
-                    max="10"
-                    required
-                >
-
-            </div>
-
+            <!-- Current Stock -->
 
             <div class="input-group">
 
-                <label>
-                    Depression Score
-                </label>
+                <label>Current Stock</label>
 
                 <input
                     type="number"
-                    name="depression_score"
-                    min="1"
-                    max="10"
-                    required
-                >
-
-            </div>
-
-
-            <div class="input-group">
-
-                <label>
-                    Social Support Score
-                </label>
-
-                <input
-                    type="number"
-                    name="social_support_score"
-                    min="1"
-                    max="10"
-                    required
-                >
-
-            </div>
-
-
-            <div class="input-group">
-
-                <label>
-                    Daily Screen Time (Hours)
-                </label>
-
-                <input
-                    type="number"
-                    step="0.1"
-                    name="screen_time_hours"
+                    id="current_stock"
                     min="0"
-                    max="24"
+                    placeholder="Enter current stock"
                     required
                 >
 
             </div>
 
+
+            <!-- Units Sold -->
 
             <div class="input-group">
 
-                <label>
-                    Daily Sleep (Hours)
-                </label>
+                <label>Units Sold Last 7 Days</label>
 
                 <input
                     type="number"
-                    step="0.1"
-                    name="daily_sleep_hours"
+                    id="units_sold"
                     min="0"
-                    max="24"
+                    placeholder="Enter units sold"
                     required
                 >
 
             </div>
 
 
-            <div class="input-group">
+            <button type="submit">
+                Predict
+            </button>
 
-                <label>
-                    Attendance Percentage
-                </label>
-
-                <input
-                    type="number"
-                    step="0.1"
-                    name="attendance_percentage"
-                    min="0"
-                    max="100"
-                    required
-                >
-
-            </div>
+        </form>
 
 
-            <div class="input-group">
+        <!-- Result -->
 
-                <label>
-                    CGPA
-                </label>
+        <div id="result">
 
-                <input
-                    type="number"
-                    step="0.01"
-                    name="cgpa"
-                    min="0"
-                    max="10"
-                    required
-                >
+            <div class="prediction" id="prediction"></div>
 
-            </div>
+            <div id="details"></div>
 
         </div>
-
-
-        <button
-            type="submit"
-            class="predict-btn">
-            🔍 Predict Stress Level
-        </button>
-
-    </form>
-
-
-    {% if prediction %}
-
-    <div class="result">
-
-        <h2>Prediction Result</h2>
-
-        <div class="stress-level">
-            Predicted Stress Level:
-            {{ prediction }}
-        </div>
-
-
-        <h3>Prediction Probabilities</h3>
-
-
-        {% for item in probabilities %}
-
-        <div class="probability">
-
-            <strong>
-                {{ item.class_name }}
-            </strong>
-
-            - {{ item.probability }}%
-
-            <div class="probability-bar">
-
-                <div
-                    class="probability-fill"
-                    style="width: {{ item.probability }}%;"
-                ></div>
-
-            </div>
-
-        </div>
-
-        {% endfor %}
 
     </div>
 
-    {% endif %}
 
-</div>
+    <script>
+
+        document
+        .getElementById("predictionForm")
+        .addEventListener("submit", async function(event) {
+
+            event.preventDefault();
+
+
+            const category =
+                document.getElementById("category").value;
+
+            const current_stock =
+                document.getElementById("current_stock").value;
+
+            const units_sold =
+                document.getElementById("units_sold").value;
+
+
+            const resultBox =
+                document.getElementById("result");
+
+            const prediction =
+                document.getElementById("prediction");
+
+            const details =
+                document.getElementById("details");
+
+
+            resultBox.style.display = "block";
+
+            prediction.innerHTML = "Predicting...";
+
+            details.innerHTML = "";
+
+
+            try {
+
+                const response = await fetch("/predict", {
+
+                    method: "POST",
+
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+
+                    body: JSON.stringify({
+
+                        category: category,
+
+                        current_stock: current_stock,
+
+                        units_sold: units_sold
+
+                    })
+
+                });
+
+
+                const data = await response.json();
+
+
+                prediction.innerHTML =
+                    data.result;
+
+
+               
+
+
+            }
+
+            catch(error) {
+
+                prediction.innerHTML =
+                    "Error connecting to server.";
+
+                console.log(error);
+
+            }
+
+        });
+
+    </script>
 
 </body>
 

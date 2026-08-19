@@ -1,69 +1,81 @@
 from flask import Flask, render_template, request, jsonify
+import pickle
 import pandas as pd
-import joblib
 
 app = Flask(__name__)
 
-# Load Logistic Regression model
-model = joblib.load("student_stress_logistic_model2.pkl")
+# Load model
+with open("model.pkl", "rb") as file:
+    model = pickle.load(file)
+
+# Load encoder
+with open("encoder.pkl", "rb") as file:
+    ohencoder = pickle.load(file)
 
 
-# Home page
 @app.route("/")
 def home():
-    return render_template("index.html")
+    # return jsonify({"message": "Welcome to the Stock Prediction API!"})
+    return render_template("index.html")    
 
-
-# Prediction
 @app.route("/predict", methods=["POST"])
 def predict():
 
-    try:
-        # Get JSON data from HTML
-        data = request.get_json()
+    data = request.json
+    # print(data)
 
-        # Create student DataFrame
-        student = pd.DataFrame([{
-            "academic_pressure_score": float(data["academic_pressure_score"]),
-            "anxiety_score": float(data["anxiety_score"]),
-            "depression_score": float(data["depression_score"]),
-            "social_support_score": float(data["social_support_score"]),
-            "screen_time_hours": float(data["screen_time_hours"]),
-            "daily_sleep_hours": float(data["daily_sleep_hours"]),
-            "attendance_percentage": float(data["attendance_percentage"]),
-            "cgpa": float(data["cgpa"])
-        }])
+    # Get only 3 inputs from user
+    Category_input = data["category"]
+    Current_Stock_input = float(data["current_stock"])
+    Units_Sold_Last_7_Days_input = float(data["units_sold"])
 
-        # Predict stress level
-        prediction = model.predict(student)[0]
+    # Calculate the other two values
+    Average_Daily_Sales_input = Units_Sold_Last_7_Days_input / 7
 
-        # Get probabilities
-        probabilities = model.predict_proba(student)[0]
+    Demand_Forecast_input = Average_Daily_Sales_input * 7
 
-        probability_data = {}
+    # Create dataframe
+    new_data = pd.DataFrame({
+        "Category": [Category_input],
+        "Current_Stock": [Current_Stock_input],
+        "Units_Sold_Last_7_Days": [Units_Sold_Last_7_Days_input],
+        "Average_Daily_Sales": [Average_Daily_Sales_input],
+        "Demand_Forecast": [Demand_Forecast_input]
+    })
 
-        for class_name, probability in zip(
-            model.classes_,
-            probabilities
-        ):
-            probability_data[class_name] = round(
-                probability * 100,
-                2
-            )
+    # Encode category
+    encoded = ohencoder.transform(new_data[["Category"]])
 
-        # Send result to HTML
-        return jsonify({
-            "prediction": prediction,
-            "probabilities": probability_data
-        })
+    encoded_df = pd.DataFrame(
+        encoded,
+        columns=ohencoder.get_feature_names_out(["Category"])
+    )
 
-    except Exception as e:
+    # Create final input
+    new_X = pd.concat([
+        encoded_df,
+        new_data[[
+            "Current_Stock",
+            "Units_Sold_Last_7_Days",
+            "Average_Daily_Sales",
+            "Demand_Forecast"
+        ]]
+    ], axis=1)
 
-        return jsonify({
-            "error": str(e)
-        }), 500
+    # Prediction
+    prediction = model.predict(new_X)[0]
+
+    if prediction == 1:
+        result = "IT NEED TO BE RESTOCKED"
+    else:
+        result = "DO NOT RESTOCK"
+
+    return jsonify({
+        "prediction": int(prediction),
+        "result": result,
+        
+    })
 
 
-# Run Flask
 if __name__ == "__main__":
     app.run(debug=True)
