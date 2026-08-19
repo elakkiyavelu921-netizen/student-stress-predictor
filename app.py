@@ -1,10 +1,10 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
 import pandas as pd
 import joblib
 
 app = Flask(__name__)
 
-# Load trained Random Forest model
+# Load Logistic Regression model
 model = joblib.load("student_stress_logistic_model2.pkl")
 
 
@@ -18,78 +18,52 @@ def home():
 @app.route("/predict", methods=["POST"])
 def predict():
 
-    academic_pressure_score = int(
-        request.form["academic_pressure_score"]
-    )
+    try:
+        # Get JSON data from HTML
+        data = request.get_json()
 
-    anxiety_score = int(
-        request.form["anxiety_score"]
-    )
+        # Create student DataFrame
+        student = pd.DataFrame([{
+            "academic_pressure_score": float(data["academic_pressure_score"]),
+            "anxiety_score": float(data["anxiety_score"]),
+            "depression_score": float(data["depression_score"]),
+            "social_support_score": float(data["social_support_score"]),
+            "screen_time_hours": float(data["screen_time_hours"]),
+            "daily_sleep_hours": float(data["daily_sleep_hours"]),
+            "attendance_percentage": float(data["attendance_percentage"]),
+            "cgpa": float(data["cgpa"])
+        }])
 
-    depression_score = int(
-        request.form["depression_score"]
-    )
+        # Predict stress level
+        prediction = model.predict(student)[0]
 
-    social_support_score = int(
-        request.form["social_support_score"]
-    )
+        # Get probabilities
+        probabilities = model.predict_proba(student)[0]
 
-    screen_time_hours = float(
-        request.form["screen_time_hours"]
-    )
+        probability_data = {}
 
-    daily_sleep_hours = float(
-        request.form["daily_sleep_hours"]
-    )
+        for class_name, probability in zip(
+            model.classes_,
+            probabilities
+        ):
+            probability_data[class_name] = round(
+                probability * 100,
+                2
+            )
 
-    attendance_percentage = float(
-        request.form["attendance_percentage"]
-    )
-
-    cgpa = float(
-        request.form["cgpa"]
-    )
-
-
-    # Create student DataFrame
-    new_student = pd.DataFrame({
-        "academic_pressure_score": [academic_pressure_score],
-        "anxiety_score": [anxiety_score],
-        "depression_score": [depression_score],
-        "social_support_score": [social_support_score],
-        "screen_time_hours": [screen_time_hours],
-        "daily_sleep_hours": [daily_sleep_hours],
-        "attendance_percentage": [attendance_percentage],
-        "cgpa": [cgpa]
-    })
-
-
-    # Predict stress level
-    prediction = model.predict(new_student)[0]
-
-
-    # Prediction probabilities
-    probabilities = model.predict_proba(new_student)[0]
-
-
-    probability_data = []
-
-    for class_name, probability in zip(
-        model.classes_,
-        probabilities
-    ):
-        probability_data.append({
-            "class_name": class_name,
-            "probability": round(probability * 100, 2)
+        # Send result to HTML
+        return jsonify({
+            "prediction": prediction,
+            "probabilities": probability_data
         })
 
+    except Exception as e:
 
-    return render_template(
-        "index.html",
-        prediction=prediction,
-        probabilities=probability_data
-    )
+        return jsonify({
+            "error": str(e)
+        }), 500
 
 
+# Run Flask
 if __name__ == "__main__":
     app.run(debug=True)
