@@ -5,7 +5,7 @@ import joblib
 app = Flask(__name__)
 
 # Load trained Random Forest model
-model = joblib.load("student_stress_model_8features.pkl")
+model = joblib.load("student_stress_logistic_model.pkl")
 
 
 # Home page
